@@ -356,6 +356,11 @@ hr {
 	text-shadow: -1px 1px 1px #000;
 }
 
+.intro .slogan h5 {
+	color: #fff;
+	text-shadow: -.5px .5px .5px #000;
+}
+
 
 /* ===========================
 --- About
@@ -760,9 +765,20 @@ Parallax
     .intro-text {
         font-size: 25px;
     }
-
+    
+    .slogan {
+        margin-top: 90px;
+    }
 
 }
+
+@media (min-width:1200px) {
+        
+    .slogan {
+        margin-top: 30PX;
+    }
+}
+
 @media (max-width:768px) {
 	
 	.team.boxed-grey {
