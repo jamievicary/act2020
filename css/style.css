@@ -311,7 +311,7 @@ hr {
 	
 	/*background: url(../img/act-2.png) no-repeat top center;*/
 	background: url(../img/Boston2.png) no-repeat top center;
-	
+  background-size: cover;	
 }
 
 #intro.intro {
